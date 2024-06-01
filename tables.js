@@ -1,5 +1,6 @@
-var a = 2;
-for (var i = 1; i <= 10; i++) {
-    for(var j)
-    console.log(i*a);
+var row = 10;
+var cols = 2
+for (var i = 1; i <= row; i++) {
+
+    console.log((i + "*" + cols) + "=" + i * cols)
 }
