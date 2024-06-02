@@ -12,3 +12,9 @@ function greetings(name, isMorning) {
     }
 }
 greetings("ram", false)
+
+function result(tiffen,lunch,dinner){
+    let sum=tiffen + lunch + dinner
+    console.log("total expense:" + sum)
+}
+result(25,50,25)
