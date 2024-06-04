@@ -38,3 +38,11 @@ function addon() {
 }
 var call = addon(100, 200, 300, 400)
 console.log("total exp:" + call)
+
+
+var numbers=[1,2,3,4,5]
+function addNumber(arr){
+    arr.push(6);
+}
+addNumber(numbers)
+console.log(numbers)
