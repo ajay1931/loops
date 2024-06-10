@@ -17,7 +17,7 @@ function factorNumber(num,limit) {
     for (var i = 1; i <=limit; i++) {
         factor = i*num;
         if(factor<=limit){
-            
+            break;
             console.log(factor)
         }
     }
