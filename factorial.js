@@ -6,6 +6,6 @@ function factorial(n){
     }
     return multiple;
 }
-var n=4;
+var n=5;
 var input=factorial(n);
 console.log(input)
