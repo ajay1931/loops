@@ -1,12 +1,15 @@
 function addOddNmubers(n) {
-    var oddnumber=0;
+    let oddnumber = 0;
+    let arr = [];
     for (var i = 1; i <= n; i++) {
         if (i % 2 != 0) {
             oddnumber += i;
+            arr.push(oddnumber);
+            
+
         }
     }
-    return oddnumber
+    return arr;
 }
-var n=9;
-var input=addOddNmubers(n)
+var input = addOddNmubers(9)
 console.log(input)
