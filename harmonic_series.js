@@ -4,8 +4,9 @@ function harmonicSeries(n) {
    for (var i = 1; i <= n; i++) {
       calc += 1 / i;
       arr.push(calc);
-      console.log(arr);
+
    }
-console.log(calc);
+   return arr;
 }
-harmonicSeries(5)
+let input = harmonicSeries(5);
+console.log(input);
