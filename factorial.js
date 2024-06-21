@@ -1,8 +1,10 @@
 function factorial(n){
-    var multiple=1;
+    let multiple=1;
+    let arr=[]
     for(var i=1;i<=n;i++){
         multiple =i*multiple;
-        console.log(multiple)
+        arr.push(multiple)
+        console.log(arr)
     }
     return multiple;
 }
